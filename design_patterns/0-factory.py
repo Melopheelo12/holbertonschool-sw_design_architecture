@@ -39,7 +39,6 @@ class VehicleFactory:
         return self._registry[kind]()
 
 
-
 def main() -> None:
     factory = VehicleFactory()
 
